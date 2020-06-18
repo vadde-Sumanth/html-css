@@ -1,0 +1,252 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0;
+    overflow-x: hidden;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+}
+
+i{cursor: pointer !important;}
+
+i:hover{opacity: 0.7;}
+
+/*   styling   */
+
+.A1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 8px 20px;
+    background-color: rgba( 64, 144, 172, 0.65 );
+    color: white;
+    
+}
+
+.A1 > * {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#A2 {
+    cursor: pointer !important;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px;
+    margin: 0px 4px;
+    background-color: rgba( 64, 144, 172, 1 );
+    color: white;
+}
+
+#A2:hover{opacity: 0.7;}
+
+#A3 {
+    background-color: rgba( 64, 144, 172, 1 ) ;
+    padding: 0;
+    display: inline-block;
+    border-radius: 2px;
+    margin: 0px 4px;
+
+}
+
+#A3 :focus{background-color: white;}
+
+#A3 input {
+    width: 120px;
+    padding: 4px 0.5em;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    font-size: 1.15em;
+    line-height: 1.4;
+    background-color: transparent;
+}
+
+
+.A4 {
+    justify-content: space-around;
+    font-family: "Comic Sans", "Comic Sans MS", cursive;
+    font-size: 1.3em;
+}
+
+.A5 {
+    justify-content: flex-end;
+}
+
+  /* div  */
+
+.B1 {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.B2 {
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    background-color: rgba( 128, 128, 128, 0.3 );
+    color: white;
+}
+
+#B3{cursor: pointer!important;}  #B3:hover{opacity: 0.6;}
+
+.C1 {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin-top: 20px;
+    padding: 84px 20px 20px;
+}
+
+.C2 {
+    flex-shrink: 0;
+    flex-basis: 240px;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.C3 {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba( 240, 240, 240, 0.9 );
+}
+
+.C4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.C5 {
+    margin: 4px;
+    font-weight: bold;
+}
+
+.C6 {
+    margin: 0 4px;
+    cursor: pointer!important;
+}
+
+.C6:hover{opacity: 0.7;}
+
+.C7 {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+.C7:hover{opacity: 0.6;}
+
+.C7 .C8 {
+    float: right;
+    display: none;
+}
+
+.C7:hover .C8 {
+    display: inline;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.C9{
+    cursor: pointer!important;
+}
+
+.C9:hover{
+    opacity: 0.6;
+}
+
+#C10 {
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 1em;
+    resize: none;
+}
+
+#C11 {
+    margin: 10px 0;
+}
+
+.C12{ 
+    position: relative;
+    top: 3px;}
+
+#btn{
+    border-radius: 4px;
+    margin-right: 8px;
+    background-color: olive;
+    color: white;
+    display: inline-block;
+    width: auto;
+    padding: 8px;
+    border: none;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer !important;
+}
+
+#btn:hover{opacity: 0.6;}
+
+
+
+
